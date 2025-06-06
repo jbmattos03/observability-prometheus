@@ -32,4 +32,4 @@ scrape_configs:
   - job_name: "data_generator"
     scrape_interval: 3s
     static_configs:
-      - targets: ["host.docker.internal:9000"]
+      - targets: ["observability-prometheus-xui2.onrender.com:9000"]
