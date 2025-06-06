@@ -8,5 +8,6 @@ services:
     container_name: prometheuscycle
     ports:
       - "9090:9090"
+      - "9000:9000"
   
 
