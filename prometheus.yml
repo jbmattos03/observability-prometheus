@@ -28,3 +28,8 @@ scrape_configs:
     scheme: https
     static_configs:
       - targets: ["pushgateway.mateusdata.com.br"]
+  
+  - job_name: "data_generator"
+    scrape_interval: 3s
+    static_configs:
+      - targets: ["localhost:9000"]
