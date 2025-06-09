@@ -34,3 +34,9 @@ scrape_configs:
     scheme: https
     static_configs:
       - targets: ["multiply-proper-spaniel.ngrok-free.app"]
+
+  - job_name: "gustavo_pushgateway"
+    scrape_interval: 3s
+    scheme: https
+    static_configs:
+      - targets: ["lj0zcmln-9091.brs.devtunnels.ms"]
